@@ -1,0 +1,51 @@
+{
+  "dataset": "BlendedMVS",
+  "description": "Large-scale dataset for generalized multi-view stereo networks",
+  "stats": {
+    "scenes": 113,
+    "training_samples": "17k+",
+    "architectures": true,
+    "sculptures": true,
+    "small_objects": true
+  },
+  "downloads": {
+    "low_res_part1": {
+      "name": "BlendedMVS_low_res_part1.zip",
+      "url": "https://1drv.ms/u/s!Ag8Dbz2Aqc81gVLILxpohZLEYiIa?e=MhwYSR",
+      "size": "81.5 GB",
+      "description": "BlendedMVS Low-res Part 1 (768\u00d7576)"
+    },
+    "low_res_part2": {
+      "name": "BlendedMVS_low_res_part2.zip",
+      "url": "https://1drv.ms/u/s!Ag8Dbz2Aqc81gVHCxmURGz0UBGns?e=Tnw2KY",
+      "size": "80.0 GB",
+      "description": "BlendedMVS Low-res Part 2 (768\u00d7576)"
+    },
+    "high_res": {
+      "name": "BlendedMVS_high_res.zip",
+      "url": "https://1drv.ms/u/s!Ag8Dbz2Aqc81ezb9OciQ4zKwJ_w?e=afFOTi",
+      "size": "156 GB",
+      "description": "BlendedMVS High-res (2048\u00d71536)"
+    },
+    "textured_meshes": {
+      "name": "BlendedMVS_textured_meshes.zip",
+      "url": "https://1drv.ms/u/s!Ag8Dbz2Aqc81fkvi2X9Mmzan0FI?e=7x2WoS",
+      "size": "9.42 GB",
+      "description": "Textured mesh models"
+    },
+    "other_images": {
+      "name": "BlendedMVS_other_images.zip",
+      "url": "https://1drv.ms/u/s!Ag8Dbz2Aqc81gVMgQoHpAJP4jlwo?e=wVOWqD",
+      "size": "7.56 GB",
+      "description": "Other images"
+    }
+  },
+  "structure": {
+    "PID_format": "PIDxxx where xxx is the project number",
+    "subdirectories": [
+      "blended_images - Regular and masked images",
+      "cams - Camera parameters and pair.txt",
+      "rendered_depth_maps - PFM depth files"
+    ]
+  }
+}
